@@ -1,0 +1,36 @@
+.container
+{
+    width: 800px;
+    margin: 0 auto;
+    background-color:white;
+    padding: 20px;
+    text-align: center;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+}
+.octocat
+{
+    width:400px;
+    height: 400px;
+}
+.top
+{
+    background-color:cadetblue;
+    justify-content: center;
+}
+.middle
+{
+    background-color:darksalmon;
+    justify-content: center;
+
+}
+.bottom
+{
+    background-color:gainsboro;
+    justify-content: center;
+}

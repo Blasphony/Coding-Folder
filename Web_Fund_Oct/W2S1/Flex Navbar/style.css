@@ -1,0 +1,45 @@
+*
+{
+    font-family: sans-serif;
+    color:white
+}
+.nav
+{
+    display: flex;
+    background-color:rgb(68, 63, 63);
+    height: 60px;
+    align-items: center;
+}
+
+.nav-title
+{
+margin-left: 15px;
+}
+
+li
+{
+    margin: 15px;
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+
+.btn
+{
+    background-color:rgb(42, 170, 209);
+    width:75px;
+    height: 25px;
+    border:2px solid black;
+    box-shadow:3px 3px 3px 1px black;
+
+}
+.nav-links
+{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: auto;
+    align-items: center;
+}

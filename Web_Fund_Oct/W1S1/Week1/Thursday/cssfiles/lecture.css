@@ -1,0 +1,52 @@
+/* *{
+    border: 1px solid red;
+} */
+
+h1 {
+    text-align: center;
+    background-color: green;
+    color: yellow;
+    }
+/* ul{
+    text-align: center;
+}
+li {
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    } */
+
+    li{
+        list-style-type:none;
+        background-color: lightgreen;
+        padding: 5px;
+        border-radius: 100%;
+    }
+    ul{
+        display:flex;
+        justify-content: space-evenly;
+        padding-left: 0px;
+    }
+/* both these ways are nice but prefer display flex */
+#paragraphs 
+/* <!-- flex goes on parent container, must use display flex when using flex attributes --> */
+
+{
+    display:flex
+}
+p{
+    border: 1px dotted red;
+}
+#specialP
+{
+    flex:4;
+}
+.other
+{
+    flex:1
+}
+
+img{
+    width:50%;
+}

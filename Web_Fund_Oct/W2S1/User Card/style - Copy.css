@@ -1,0 +1,39 @@
+.flex-container
+{
+    display: flex;
+    width: 4000px;
+}
+.container
+{
+    background-color: white;
+    width: 500px;
+    border: 2px solid black;
+}
+#header
+{
+    background-color:darkcyan ;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.user-circle
+{
+    padding: 10px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#profile-body
+{
+    margin-top: 150px;
+}
+.map-marker
+{
+    height:20px;
+}
+.icon-s
+{
+    height:20px;
+}
