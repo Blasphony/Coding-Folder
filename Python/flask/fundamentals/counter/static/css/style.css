@@ -1,0 +1,9 @@
+h1,h2{
+    display: flex;
+    justify-content: center;
+}
+.counter_form{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
