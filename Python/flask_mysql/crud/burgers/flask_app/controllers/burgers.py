@@ -1,6 +1,18 @@
-from flask import Flask,render_template,redirect,request
+# from flask import Flask,render_template,redirect,request
+# from flask_app import app
+# from flask_app.models.burger import Burger
+
+# burgers.py
 from flask_app import app
+from flask import render_template,redirect,request,session,flash
+# burgers.py...
 from flask_app.models.burger import Burger
+# gets all the burgers and returns them in a list of burger objects .
+        
+
+
+
+
 
 @app.route('/')
 def index():

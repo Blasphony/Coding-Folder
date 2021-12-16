@@ -17,14 +17,18 @@ class Burger:
 
 
 
+    # burger.py...
+    # gets all the burgers and returns them in a list of burger objects .
     @classmethod
     def get_all(cls):
-        query = "SELECT * FROM burgers;"
-        burgers_from_db =  connectToMySQL('burgers').query_db(query)
-        burgers =[]
+        query = "SELECT * FROM burgers"
+        burgers_from_db = connectToMySQL('burgers').query_db(query)
+        burgers = []
         for b in burgers_from_db:
             burgers.append(cls(b))
         return burgers
+
+
 
     @classmethod
     def get_one(cls,data):
